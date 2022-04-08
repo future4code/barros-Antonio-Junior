@@ -1,0 +1,8 @@
+1-macarronada
+2-lasanha
+3-feijoada
+4-pizza
+5-hamburguer
+6-arroz carreteiro
+7-estronoff
+8-xixim
