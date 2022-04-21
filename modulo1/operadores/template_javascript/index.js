@@ -59,11 +59,24 @@ idadeMinha > idadeAmigo) // R= true
 /* letra b*/  console.log(primeiroNumero % 2)
 /* letra c*/  console.log(primeiroNumero % 4) //Todos irão da numero exatos exceto quando não for numero inteiros.
 /* letra d*/  let segundoNumero = prompt (Number ("Coloque um numero impar"))
-              console.log(segundoNumero % 4) // Geralmente dara resultado impar
-// Exercicio 3 -
 
-let suaIdade1 = prompt(Number("Qual a sua idade?"))
-/* letra a */ console.log(suaIdade1 * 12)
-/* letra b*/ console.log(suaIdade1 * 365)
-/* letra c*/ console.log(suaIdade1 * 8760)
+=======
+              console.log(segundoNumero % 4)
 
+//Execicio 3 -
+
+let suaIdade =  prompt(Number ("Diga a sua idade"))
+
+/* letra a*/ console.log(suaIdade * 12)
+/* letra b*/ console.log(suaIdade * 465)
+/* letra c*/ console.log(suaIdade * 5580)
+
+// Exercicio 4 -
+
+const pix1 = 20
+const pix2 = 30
+
+/* letra a*/ console.log(pix1 > pix2) - true
+/* letra b*/ console.log(pix1 === pix2) - false
+/* letra c*/ console.log(pix1 / pix2) - false
+/* letra d*/ console.log(pix2 / pix1) - true
