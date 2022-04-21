@@ -59,6 +59,8 @@ idadeMinha > idadeAmigo) // R= true
 /* letra b*/  console.log(primeiroNumero % 2)
 /* letra c*/  console.log(primeiroNumero % 4) //Todos irão da numero exatos exceto quando não for numero inteiros.
 /* letra d*/  let segundoNumero = prompt (Number ("Coloque um numero impar"))
+
+=======
               console.log(segundoNumero % 4)
 
 //Execicio 3 -
