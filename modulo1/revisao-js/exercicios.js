@@ -39,7 +39,9 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-    
+
+    let maiorNumero = array.reduce 
+      return retornaMaiorNumero
     }
 
 // EXERCÍCIO 07
