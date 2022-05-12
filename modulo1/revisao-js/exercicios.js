@@ -5,35 +5,35 @@
 
 // EXERCÍCIO 01
 function retornaTamanhoArray(array) {
-array = ["Azul", "Amarelo","Vermelho"]   
-return retornaTamanhoArray.length
+tamanhoDaArray= array.length
+return retornaTamanhoArray
 
 }
-
 // EXERCÍCIO 02
 function retornaArrayInvertido(array) {
-  
+  let inversaoDeArray = array.reverse
+  return retornaArrayInvertido
 }
+
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  
+
 }
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
+ 
   
 }
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
 }
-
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
-}
+
+    }
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
@@ -41,9 +41,12 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
 }
 
 // EXERCÍCIO 08
-function retornaNPrimeirosPares(n) {
-   
+function retornaNNumerosPares(n) {
+
+    
 }
+
+
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
