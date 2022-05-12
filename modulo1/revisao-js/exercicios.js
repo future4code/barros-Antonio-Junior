@@ -18,7 +18,8 @@ function retornaArrayInvertido(array) {
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-
+let arrayOrdenado = array.sort
+return retornaArrayOrdenado
 }
 
 // EXERCÍCIO 04
