@@ -24,7 +24,9 @@ return retornaArrayOrdenado
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
- 
+  if (array % 2 === 0){}
+  let pares = array.filter(retornaNumerosPares)
+  return pares
   
 }
 
