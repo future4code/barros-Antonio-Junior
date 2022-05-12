@@ -32,10 +32,14 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
-}
+    if (array % 2 === 0){}
+    if (array * 2){}
+        let pares = array.filter(retornaNumerosParesElevadosADois)
+        return pares}
+
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-
+    
     }
 
 // EXERCÍCIO 07
