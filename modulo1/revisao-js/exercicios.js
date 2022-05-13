@@ -102,9 +102,10 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
     }
 
 // EXERCÍCIO 10
-
+let tamanhoDaArray = array.length
+let CrescenteArray = array.sort((a,b) => a-b);
 function retornaSegundoMaiorESegundoMenor(array) {
-
+        return CrescenteArray[5,1]
 }
 
 // EXERCÍCIO 11
