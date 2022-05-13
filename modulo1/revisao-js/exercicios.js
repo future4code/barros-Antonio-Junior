@@ -38,10 +38,10 @@ function retornaNumerosParesElevadosADois(array) {
         return pares}
 
 // EXERCÍCIO 06
+let arrayTamanho = array.length
+let arrayCrescente = array.sort((a,b) => a-b);
 function retornaMaiorNumero(array) {
-
-    let maiorNumero = array.reduce 
-      return retornaMaiorNumero
+return arrayCrescente[4]
     }
 
 // EXERCÍCIO 07
