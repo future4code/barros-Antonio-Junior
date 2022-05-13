@@ -85,18 +85,34 @@ function retornaNNumerosPares(n) {
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
-}
+    
+    
+        if(a + b > c && a + c > b && b + c > a){
+            return ("Os 3 lados formam um triangulo!");
+            if(a == b && a == c)
+                return ("Equilatero")
+            else
+                if(a == b || a == c || b == c)
+                return ("Isosceles");
+                else
+                    return ("Escaleno")
+        }
+        else
+            return classificaTriangulo
+    }
 
 // EXERCÍCIO 10
+
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+
 }
 
 // EXERCÍCIO 11
+
 function retornaChamadaDeFilme(filme) {
-   
-}
+    
+    }
+    
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
