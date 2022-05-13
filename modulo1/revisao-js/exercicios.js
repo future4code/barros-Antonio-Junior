@@ -4,21 +4,21 @@
 
 
 // EXERCÍCIO 01
-function retornaTamanhoArray(array) {
 tamanhoDaArray= array.length
+function retornaTamanhoArray(array) {
 return retornaTamanhoArray
 
 }
 // EXERCÍCIO 02
+let inversaoDeArray = array.reverse
 function retornaArrayInvertido(array) {
-  let inversaoDeArray = array.reverse
   return retornaArrayInvertido
 }
 
 
 // EXERCÍCIO 03
-function retornaArrayOrdenado(array) {
 let arrayOrdenado = array.sort
+function retornaArrayOrdenado(array) {
 return retornaArrayOrdenado
 }
 
