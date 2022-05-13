@@ -110,10 +110,18 @@ function retornaSegundoMaiorESegundoMenor(array) {
 
 // EXERCÍCIO 11
 
+let menssagem = filme.filter(nome,ano, diretor, atores)
 function retornaChamadaDeFilme(filme) {
-    
+    if ((atores > filme.length + 1) || (atores < 1)){
+        let menssagem = ("Essa não é uma opção válida.")
+        return menssagem
+        }
+        else{
+        let menssagem ="Venha assistir ao filme" (nome[atores-1] + ", de" + ano[atores-1] + " que estreou no cinema em " + "dirigido por" + diretor[id-1] + "e estrelado por" + atores[atores-1] + ".")
+        return menssagem
+       
+        }
     }
-    
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
