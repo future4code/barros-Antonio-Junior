@@ -130,12 +130,28 @@ function retornaPessoaAnonimizada(pessoa) {
 }
 
 // EXERCÍCIO 13A
+const pessoasAutorizadas = pessoas.map( pessoas, indice, array )
+function retornaPessoasAutorizadas(pessoas) {
+   if (pessoas.altura >= 1,5)
+   return "Você está autorizada"
+   if (pessoa.idade >= 14)
+   return "Você está autorizada"
+   else (pessoas.idade <= 60)
+   return "Você está autorizada"
 
+   return retornaPessoasAutorizadas
 }
 
 
 // EXERCÍCIO 13B
-
+const pessoasNaoAutorizadas = pessoas.map( pessoas, indice, array )
+function retornaPessoasNaoAutorizadas(pessoas) {
+    if (pessoas.altura <= 1,5)
+    return "Você não está autorizada"
+    if (pessoa.idade <= 14)
+    return "Você não está autorizada"
+    else (pessoas.idade >= 60)
+    return "Você não está autorizada"
   
 }
 
