@@ -163,10 +163,15 @@ return {...contas, saldo: sald.saldoAtualizado - sald.compras}
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
-  
+  consultas.sort(a,b)
+  if(a>b) return 1;
+  if (a<b) return -1;
+  return retornaArrayOrdenadoAlfabeticamente
 }
 
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
-   
+   consultas.sort(a,b)
+   if (a.data < b.data);
+   return retornaArrayOrdenadoPorData
 }
