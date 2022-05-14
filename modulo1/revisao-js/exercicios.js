@@ -156,6 +156,10 @@ function retornaPessoasNaoAutorizadas(pessoas) {
 }
 
 // EXERCÍCIO 14
+const saldoAtualizado = contas.map({sald})
+function retornaContasComSaldoAtualizado(contas) {
+return {...contas, saldo: sald.saldoAtualizado - sald.compras}
+}
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
