@@ -124,24 +124,22 @@ function retornaChamadaDeFilme(filme) {
     }
 
 // EXERCÍCIO 12
+const novaPessoa = {...pessoa, nome: "ANÔNIMO"}
 function retornaPessoaAnonimizada(pessoa) {
-   
+   return novaPessoa
 }
 
 // EXERCÍCIO 13A
-function retornaPessoasAutorizadas(pessoas) {
-   
+
 }
 
+
 // EXERCÍCIO 13B
-function retornaPessoasNaoAutorizadas(pessoas) {
+
   
 }
 
 // EXERCÍCIO 14
-function retornaContasComSaldoAtualizado(contas) {
-
-}
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
