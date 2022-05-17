@@ -4,21 +4,21 @@
 
 
 // EXERCÍCIO 01
-function retornaTamanhoArray(array) {
 tamanhoDaArray= array.length
+function retornaTamanhoArray(array) {
 return retornaTamanhoArray
 
 }
 // EXERCÍCIO 02
+let inversaoDeArray = array.reverse
 function retornaArrayInvertido(array) {
-  let inversaoDeArray = array.reverse
   return retornaArrayInvertido
 }
 
 
 // EXERCÍCIO 03
-function retornaArrayOrdenado(array) {
 let arrayOrdenado = array.sort
+function retornaArrayOrdenado(array) {
 return retornaArrayOrdenado
 }
 
@@ -85,45 +85,93 @@ function retornaNNumerosPares(n) {
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
-}
+    
+    
+        if(a + b > c && a + c > b && b + c > a){
+            return ("Os 3 lados formam um triangulo!");
+            if(a == b && a == c)
+                return ("Equilatero")
+            else
+                if(a == b || a == c || b == c)
+                return ("Isosceles");
+                else
+                    return ("Escaleno")
+        }
+        else
+            return classificaTriangulo
+    }
 
 // EXERCÍCIO 10
+let tamanhoDaArray = array.length
+let CrescenteArray = array.sort((a,b) => a-b);
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+        return CrescenteArray[5,1]
 }
 
 // EXERCÍCIO 11
+
+let menssagem = filme.filter(nome,ano, diretor, atores)
 function retornaChamadaDeFilme(filme) {
-   
-}
+    if ((atores > filme.length + 1) || (atores < 1)){
+        let menssagem = ("Essa não é uma opção válida.")
+        return menssagem
+        }
+        else{
+        let menssagem ="Venha assistir ao filme" (nome[atores-1] + ", de" + ano[atores-1] + " que estreou no cinema em " + "dirigido por" + diretor[id-1] + "e estrelado por" + atores[atores-1] + ".")
+        return menssagem
+       
+        }
+    }
 
 // EXERCÍCIO 12
+const novaPessoa = {...pessoa, nome: "ANÔNIMO"}
 function retornaPessoaAnonimizada(pessoa) {
-   
+   return novaPessoa
 }
 
 // EXERCÍCIO 13A
+const pessoasAutorizadas = pessoas.map( pessoas, indice, array )
 function retornaPessoasAutorizadas(pessoas) {
-   
+   if (pessoas.altura >= 1,5)
+   return "Você está autorizada"
+   if (pessoa.idade >= 14)
+   return "Você está autorizada"
+   else (pessoas.idade <= 60)
+   return "Você está autorizada"
+
+   return retornaPessoasAutorizadas
 }
 
+
 // EXERCÍCIO 13B
+const pessoasNaoAutorizadas = pessoas.map( pessoas, indice, array )
 function retornaPessoasNaoAutorizadas(pessoas) {
+    if (pessoas.altura <= 1,5)
+    return "Você não está autorizada"
+    if (pessoa.idade <= 14)
+    return "Você não está autorizada"
+    else (pessoas.idade >= 60)
+    return "Você não está autorizada"
   
 }
 
 // EXERCÍCIO 14
+const saldoAtualizado = contas.map({sald})
 function retornaContasComSaldoAtualizado(contas) {
-
+return {...contas, saldo: sald.saldoAtualizado - sald.compras}
 }
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
-  
+  consultas.sort(a,b)
+  if(a>b) return 1;
+  if (a<b) return -1;
+  return retornaArrayOrdenadoAlfabeticamente
 }
 
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
-   
+   consultas.sort(a,b)
+   if (a.data < b.data);
+   return retornaArrayOrdenadoPorData
 }
