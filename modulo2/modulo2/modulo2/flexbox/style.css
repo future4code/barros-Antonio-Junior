@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between
+
+}
+header{
+  background-color: mediumvioletred;
+  align-items: center;
+}
+
+
+nav{
+  background-color: #f2d0e0;
+  height: 300px;
+}
+
+
+footer {
+  background-color: mediumvioletred;
+  color: #030303;
+  font-family: Verdana;
+  font-size: 15px;
+  text-align: center;
+  padding: 3px;
+  bottom: 0;
+}
+
+div{
+  display: flex;
+}
+
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+main{
+box-shadow: 5px 5px 5px darkgray;
+}
+
+
+
+
