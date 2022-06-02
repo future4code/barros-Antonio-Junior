@@ -1,0 +1,151 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 2fr 20%;
+
+}
+  
+  
+  header{
+    display: grid;
+  grid-template-columns: 85% 30%;
+  grid-template-rows: 70px;
+  align-items: center;
+  justify-items: start;
+  }
+  header{
+    background-color: rgb(255, 145, 2);
+  }
+  
+  
+  
+  footer {
+    background-color: rgb(110, 107, 109);
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 15px;
+    padding: 3px;
+    bottom: 0;
+  }
+  
+
+  section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    
+  }
+
+  .video1{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid yellowgreen
+  }
+
+  .video1{
+    text-align: center;
+  }
+
+  .video2{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid yellowgreen
+  }
+
+  .video2{
+    text-align: center;
+  }
+
+  .video3{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid yellowgreen
+  }
+
+  .video3{
+    text-align: center;
+  }
+
+  .video4{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid yellowgreen
+  }
+
+  .video4{
+    text-align: center;
+  }
+
+  .video5{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid yellowgreen
+  }
+
+  .video5{
+    text-align: center;
+  }
+
+  .video6{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid yellowgreen
+  }
+
+  .video6{
+    text-align: center;
+  }
+
+  .video7{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid yellowgreen
+  }
+
+  .video7{
+    text-align: center;
+  }
+
+  .video8{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid yellowgreen
+  }
+
+  .video8{
+    text-align: center;
+  }
+
+  .video9{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid yellowgreen
+  }
+
+  .video9{
+    text-align: center;
+  }
+
+  .video10{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid yellowgreen
+    
+  }
+
+  .video10{
+      text-align: center;
+  }
+
+
+  
+  
+  
