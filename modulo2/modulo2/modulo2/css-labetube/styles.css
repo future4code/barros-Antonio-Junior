@@ -1,0 +1,197 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 2fr 20%;
+    background-color: rgb(15, 15, 15);
+}
+  
+  
+  header{
+    display: grid;
+  grid-template-columns: 85% 30%;
+  grid-template-rows: 70px;
+  align-items: center;
+  justify-items: start;
+  }
+  header{
+    background-color: rgb(255, 145, 2);
+  }
+  
+  
+  
+  footer {
+    background-color: rgb(110, 107, 109);
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 7px;
+    padding: 3px;
+    bottom: 0;
+  }
+  
+
+  section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    
+  }
+
+  .video1{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  .video1{
+    text-align: center;
+  }
+
+
+  .video2{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  .video2{
+    text-align: center;
+  }
+
+  .video3{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  .video3{
+    text-align: center;
+  }
+
+  .video4{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  .video4{
+    text-align: center;
+  }
+
+  .video5{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  .video5{
+    text-align: center;
+  }
+
+  .video6{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  .video6{
+    text-align: center;
+  }
+
+  .video7{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  .video7{
+    text-align: center;
+  }
+
+  .video8{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  .video8{
+    text-align: center;
+  }
+
+  .video9{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  .video9{
+    text-align: center;
+  }
+
+  .video10{
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+    
+  }
+
+  .video10{
+      text-align: center;
+  }
+
+
+  
+  
+  .video11{
+    padding: 10px;
+    width: 750px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  .video11{
+    text-align: center;
+  }
+
+  .video12{
+    padding: 10px;
+    width: 750px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  .video12{
+    text-align: center;
+  }
+
+  section{
+    padding: 10px;
+    width: 1200px;
+    margin: 10px auto;
+    border: 1px solid rgb(255, 145, 2);
+  }
+
+  h3{
+    color: #ffffff;
+  }
+
+  h2{
+    color: black;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: #00F;
+   }
+   
+   a:hover {
+    text-decoration: underline;
+    color: rgb(253, 247, 247);
+   }
