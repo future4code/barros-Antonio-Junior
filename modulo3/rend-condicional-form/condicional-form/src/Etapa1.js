@@ -4,7 +4,7 @@ function Etapa1() {
   return (
     <div className="Etapa1">
       
-      <h1>Dados Gerais</h1>
+      <h1>DADOS GERAIS</h1>
 
      <form name='f_cadastro' action='#' method='get'></form>
      <br></br>
