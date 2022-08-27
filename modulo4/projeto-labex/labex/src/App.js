@@ -1,11 +1,14 @@
-import logo from './logo.svg';
+import Rotas from "./Routers/Rotas";
 import './App.css';
-import Form from './Pages/LoguinPage';
+import { TripsPage } from "./Pages/TripsPage";
+import CardTrip from "./components/CardTrip";
+
+
 
 function App() {
   return (
     <div className="App">
-    <Form/>
+      <Rotas/>
     </div>
   );
 }
