@@ -14,7 +14,7 @@ export function LoginPage() {
     const navigate = useNavigate()
     const fazerLogin = (event) => {
         event.preventDefault() //evita que a página seja renderizada novamente ao enviar o formulário
-        axios.post(`${BASE_URL}junior-prado/login`,form)
+        axios.post(`${BASE_URL}antonio-junior/login`,form)
             .then((response) => {
 
                 console.log(response.data);
