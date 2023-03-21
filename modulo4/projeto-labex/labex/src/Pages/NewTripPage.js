@@ -18,7 +18,7 @@ export default function NewTripPage() {
                  description: "sem valor", 
                  durationInDays: 100}
     console.log(body);
-    axios.post(`${BASE_URL}antonio-junior/trips`,body,{headers:{auth:localStorage.getItem('token')}})
+    axios.post(`${BASE_URL}junior-prado/trips`,body,{headers:{auth:localStorage.getItem('token')}})
       .then((response) => {
         alert("Viagem cadastrada com sucesso")
         clear();

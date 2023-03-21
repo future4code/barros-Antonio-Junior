@@ -13,7 +13,7 @@ export function TripsPage(){
     const navigate=useNavigate();
 
     
-    const [data,isLoading]=useRequestDataTrips(`${BASE_URL}antonio-junior/trips`)
+    const [data,isLoading]=useRequestDataTrips(`${BASE_URL}junior-prado/trips`)
 
     console.log(data);
     const myTrips=data&&data.trips.map((trip)=>{
